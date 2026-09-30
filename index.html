@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- D-38：以下 lang/title/description 是 JS 启动前的静态默认值（=源语言 zh-CN）。
+     应用启动时由 src/i18n 的 applyLocalePreference() 按「设置覆盖 > navigator.language
+     前缀 > zh-CN」解析后就地改写（applyDocumentLocale），无需在此维护多语言副本。 -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#08080c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="description" content="一个人的音乐创作游乐场：画、弹、打歌，每次创作都留在廊里。" />
+    <link rel="apple-touch-icon" href="/sound-corridor-web/icons/icon-192.png" />
+    <title>声之廊 - 单机版</title>
+    <script type="module" crossorigin src="/sound-corridor-web/assets/index-CzV5PqJr.js"></script>
+    <link rel="stylesheet" crossorigin href="/sound-corridor-web/assets/index-BEhn5pkU.css">
+  <link rel="manifest" href="/sound-corridor-web/manifest.webmanifest"></head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
